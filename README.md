@@ -23,11 +23,15 @@
 ##### -Google Map을 사용하기 위한 fragmemt
 ##### -해당 제과점의 상호명과 주소를 TextView에 그림
 ##### -전화 버튼 클릭 시 Phone App으로 연결, 자동차 버튼 클릭 시 Google Map App으로 연결되어 길찾기 서비스 이용 가능  
-##### 1) OpenAPI  
+##### 2) OpenAPI  
 ##### -서울 열린데이터 광장: 서울특별시 강남구 제과점영업 인허가 정보  
 ##### -요청인자  
 ![이미지5](./Images/image5.PNG)  
 ##### -Http 통신을 위해 Retrofit2 사용  
 ![이미지7](./Images/image7.PNG)  
-##### JSON  
+##### -JSON  
 ![이미지6](./Images/image6.PNG)  
+##### -Retrofit2의 컨버터(Convertor)로 Gson 사용  
+##### -데이터를 담기 위해 POJO 생성  
+##### 3) SQLiteDatabase  
+##### -Http통신으로 받아온 데이터 중 제과점 이름, 주소, 번호를 데이터베이스에 저장 (MainActivity.java에서 얻은 데이터를 MainActivity2.java에서도 사용하기 위해)
