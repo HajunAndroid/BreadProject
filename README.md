@@ -49,8 +49,14 @@
 ### 2-5) Others  
 ##### Permission  
 ##### uses-permission android:name="android.permission.INTERNET"  
-##### uses-permission android:name="android.permission.CALL_PHONE"
-| |ProtectionLevel|사용자에게 권한 부여 요청
+##### uses-permission android:name="android.permission.CALL_PHONE"  
+| |ProtectionLevel|사용자에게 권한 부여 요청|
 |------|---|---|
 |INTERNET|Normal|x|
 |CALL_PHONE|Dangerous|O|
+##### Dependencies  
+##### implementation 'com.squareup.retrofit2:retrofit:2.5.0'  
+##### implementation 'com.squareup.retrofit2:converter-gson:2.5.0'  
+##### implementation 'com.google.code.gson:gson:2.8.5'  
+##### implementation 'com.google.android.gms:play-services-maps:17.0.0'  
+
