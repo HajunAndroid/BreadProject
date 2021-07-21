@@ -46,3 +46,7 @@
 ##### -Geocoder 사용 위해 개발자 thread 발생  
 ##### -개발자 thread의 UI(지도) 작업 위한 handler 사용  
 ![이미지11](./Images/image11.PNG)  
+### 2-5) Others  
+### Permission  
+##### <uses-permission android:name="android.permission.INTERNET"/>  
+##### <uses-permission android:name="android.permission.CALL_PHONE"/>
