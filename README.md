@@ -10,7 +10,6 @@
 
 ### **[사용 핵심 skill 및 지식]**
 
-
 ![이미지2](./Images/image2.PNG)
 
 ### 2. 프로젝트 설명
@@ -20,4 +19,4 @@
 ##### **[프로젝트 기간]** 21.07.12 ~ 21.07.21  
 ##### **[개발 환경 및 언어]** AndroidStudio/Java  
 ##### **[상세업무]** (UI/OpenAPI/SQLiteDatabase/GoogleMap/Others)  
-##### -UI  
+##### 1) UI  
