@@ -50,3 +50,7 @@
 ##### Permission  
 ##### uses-permission android:name="android.permission.INTERNET"  
 ##### uses-permission android:name="android.permission.CALL_PHONE"
+| |ProtectionLevel|사용자에게 권한 부여 요청
+|------|---|---|
+|INTERNET|Normal|x|
+|CALL_PHONE|Dangerous|O|
