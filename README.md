@@ -36,3 +36,8 @@
 ##### -데이터를 담기 위해 POJO 생성  
 ### 2-3) SQLiteDatabase  
 ##### -Http통신으로 받아온 데이터 중 제과점 이름, 주소, 번호를 데이터베이스에 저장 (MainActivity.java에서 얻은 데이터를 MainActivity2.java에서도 사용하기 위해)
+![이미지8](./Images/image8.PNG)  
+##### -“영업” 중인 제과점만 선별  
+![이미지9](./Images/image9.PNG)  
+##### -MainActivity.java 즉, Fist Activity가 onDestroy()될 때 Database의 해당 테이블을 비움 (First Activity의 onCreate()가 실행될 때마다 약 30개의 새 데이터를 보여주기 위해/메모리 공간 효율 위해)
+![이미지10](./Images/image10.PNG)  
