@@ -45,3 +45,4 @@
 ##### -제과점 주소만 제공하는 관계로 Geocoder 사용해 위도, 경도 얻음  
 ##### -Geocoder 사용 위해 개발자 thread 발생  
 ##### -개발자 thread의 UI(지도) 작업 위한 handler 사용  
+![이미지11](./Images/image11.PNG)  
