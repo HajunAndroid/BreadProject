@@ -22,4 +22,17 @@
 ![이미지4](./Images/image4.PNG)  
 ##### -Google Map을 사용하기 위한 fragmemt
 ##### -해당 제과점의 상호명과 주소를 TextView에 그림
-##### -전화 버튼 클릭 시 Phone App으로 연결, 자동차 버튼 클릭 시 Google Map App으로 연결되어 길 찾기 서비스 이용 가능  
+##### -전화 버튼 클릭 시 Phone App으로 연결, 자동차 버튼 클릭 시 Google Map App으로 연결되어 길찾기 서비스 이용 가능  
+##### 1) OpenAPI  
+##### -서울 열린데이터 광장: 서울특별시 강남구 제과점영업 인허가 정보  
+##### -요청인자  
+![이미지5](./Images/image5.PNG)  
+##### -Http 통신을 위해 Retrofit2 사용  
+'''java
+public interface RetrofitInterface {
+    @GET("http://openapi.seoul.go.kr:8088/{KEY}/{TYPE}/{SERVICE}/{START_INDEX}/{END_INDEX}")
+    Call<Example> getLocaldata(@Path("KEY") String key, @Path("TYPE") String type,
+                               @Path("SERVICE") String service, @Path("START_INDEX") int start,
+                               @Path("END_INDEX") int end);
+}
+'''
