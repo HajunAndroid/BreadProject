@@ -28,11 +28,9 @@
 ##### -요청인자  
 ![이미지5](./Images/image5.PNG)  
 ##### -Http 통신을 위해 Retrofit2 사용  
-'''java
 public interface RetrofitInterface {
     @GET("http://openapi.seoul.go.kr:8088/{KEY}/{TYPE}/{SERVICE}/{START_INDEX}/{END_INDEX}")
     Call<Example> getLocaldata(@Path("KEY") String key, @Path("TYPE") String type,
                                @Path("SERVICE") String service, @Path("START_INDEX") int start,
                                @Path("END_INDEX") int end);
 }
-'''
