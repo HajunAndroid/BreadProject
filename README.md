@@ -28,3 +28,4 @@
 ##### -요청인자  
 ![이미지5](./Images/image5.PNG)  
 ##### -Http 통신을 위해 Retrofit2 사용  
+![이미지7](./Images/image7.PNG)  
