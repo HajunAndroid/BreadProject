@@ -41,3 +41,7 @@
 ![이미지9](./Images/image9.PNG)  
 ##### -MainActivity.java 즉, Fist Activity가 onDestroy()될 때 Database의 해당 테이블을 비움 (First Activity의 onCreate()가 실행될 때마다 약 30개의 새 데이터를 보여주기 위해/메모리 공간 효율 위해)
 ![이미지10](./Images/image10.PNG)  
+### 2-4) GoogleMap  
+##### -제과점 주소만 제공하는 관계로 Geocoder 사용해 위도, 경도 얻음  
+##### -Geocoder 사용 위해 개발자 thread 발생  
+##### -개발자 thread의 UI(지도) 작업 위한 handler 사용  
