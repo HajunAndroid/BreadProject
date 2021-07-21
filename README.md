@@ -29,3 +29,5 @@
 ![이미지5](./Images/image5.PNG)  
 ##### -Http 통신을 위해 Retrofit2 사용  
 ![이미지7](./Images/image7.PNG)  
+##### JSON  
+![이미지6](./Images/image6.PNG)  
