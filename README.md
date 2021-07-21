@@ -25,7 +25,7 @@
 ##### -해당 제과점의 상호명과 주소를 TextView에 그림
 ##### -전화 버튼 클릭 시 Phone App으로 연결, 자동차 버튼 클릭 시 Google Map App으로 연결되어 길찾기 서비스 이용 가능  
 ### 2-2) OpenAPI  
-##### -서울 열린데이터 광장: 서울특별시 강남구 제과점영업 인허가 정보  
+##### -서울 열린데이터 광장 서울특별시 강남구 제과점영업 인허가 정보  
 ##### <http://data.seoul.go.kr/dataList/OA-18424/S/1/datasetView.do>  
 ##### -요청인자  
 ![이미지5](./Images/image5.PNG)  
