@@ -12,3 +12,10 @@
 ##### **[개발 환경 및 언어]** AndroidStudio/Java  
 ##### **[상세업무]** (UI/OpenAPI/SQLiteDatabase/GoogleMap/Others)  
 ##### 1) UI  
+![이미지3](./Images/image3.PNG)  
+-AppBar와 RecyclerView의 상호 작용 위해 CoordinatorLayout 사용
+-AppBar에 ImageView와 Toolbar를 사용해 이미지와 제목 삽입
+-CollapsingToolbarLayout으로 스크롤 시 AppBar의 변형 모습 설정
+-ListView의 findViewById 성능 이슈, 쉬운 커스터마이징을 위해 RecycerView를 사용
+-CardView를 사용해 그림자 효과 부여
+-원하는 제과점 클릭 시 Second Activity 화면 등장
