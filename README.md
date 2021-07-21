@@ -19,3 +19,7 @@
 ##### -ListView의 findViewById 성능 이슈, 쉬운 커스터마이징을 위해 RecycerView를 사용  
 ##### -CardView를 사용해 그림자 효과 부여  
 ##### -원하는 제과점 클릭 시 Second Activity 화면 등장  
+![이미지4](./Images/image4.PNG)  
+##### -Google Map을 사용하기 위한 fragmemt
+##### -해당 제과점의 상호명과 주소를 TextView에 그림
+##### -전화 버튼 클릭 시 Phone App으로 연결, 자동차 버튼 클릭 시 Google Map App으로 연결되어 길 찾기 서비스 이용 가능  
