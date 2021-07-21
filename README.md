@@ -53,7 +53,7 @@
 ##### uses-permission android:name="android.permission.CALL_PHONE"  
 | |ProtectionLevel|사용자에게 권한 부여 요청|
 |------|---|---|
-|INTERNET|Normal|x|
+|INTERNET|Normal|X|
 |CALL_PHONE|Dangerous|O|
 ##### Dependencies  
 ##### implementation 'com.squareup.retrofit2:retrofit:2.5.0'  
