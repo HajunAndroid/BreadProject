@@ -6,7 +6,7 @@
 ![이미지1](./Images/image1.PNG)  
 ### **[사용 핵심 skill 및 지식]**  
 ![이미지2](./Images/image2.PNG)  
-### Google Play 링크 https://play.google.com/store/apps/details?id=kr.co.hajun.breadproject   
+### [Google Play 링크] https://play.google.com/store/apps/details?id=kr.co.hajun.breadproject   
 ### 2. 프로젝트 설명  
 ##### **[프로젝트명]** ‘강남’s bread’ 안드로이드 앱 개발 프로젝트  
 ##### **[프로젝트 소개]** ‘서울 열린 데이터 광장’에서 제공하는 ‘서울특별시 강남구 제과점영업 인허가 정보’ OpenAPI로 강남구 소재 제과점 정보를 활용합니다. 사용자는 안드로이드 앱을 통해 제과점을 소개받고 선택한 제과점의 위치와 전화번호, 길찾기 서비스를 이용할 수 있습니다. 매 실행마다 약 30개 제과점을 추천 받습니다.  
